@@ -55,6 +55,7 @@
         .topNav>ul{
             width: 100%;
             flex-direction: column;
+            display: none;
         }
         .topNav>ul>li{
             width:100%;
@@ -65,6 +66,14 @@
             margin-left: 20px;
             float:left;
             display:block;
+        }
+    }
+    @media screen and (min-width: 641px){
+        .topNav>ul{
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: center;
+            width: 30%;
         }
     }
 
