@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="topNav" id="navBar">
+        <a href="javascript:void(0);" class="icon" onclick="dropDown()"><i class="fa fa-bars"></i></a>
+        <ul id="myLinks">
+            <li><a href="#aboutMe" id="aboutLink">About</a></li>
+            <li><a href="#skillSet" id="skillLink">Skillset</a></li>
+            <li><a href="#projects" id="projectLink">Projects</a></li>
+            <li><a href="#contacts" id="contactsLink">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="topBanner">
+        <div id="bannerText">
+            <h2>Albert Yang</h2>
+            <h2>Software Developer</h2>
+        </div>
+    </div>
+
+    <main>
+        <div id="aboutMe">
+            <div class="background">
+                <h2>Background</h2>
+                <p>I am an aspiring software developer and full-stack web developer and this is a portfolio page I created using HTML, CSS, and JS. I am mostly self-taught for my
+                    first three years and have been programming for almost a total of four. I have dabbled in many
+                    different areas, such as building Arduino bots in C++, game development in Java, storage management in
+                    Assembly, and now this webpage. This is a list that will only keep on
+                    growing as I continue to learn more.</p>
+                <p>Outside of programming, I find myself taking frequent nature walks/hiking and fishing trips. If I'm
+                    not doing any of these, I'm most likely playing video games.</p>
+            </div>
+        </div>
+        <div id="skillSet" class="responsive">
+            <h2>Skillset</h2>
+            <div class="topRow">
+                <ul>
+                    <li onmouseover=""><img src="imgs/java.png" alt="Java"></li>
+                    <li><img src="imgs/c++.png" alt="C++" class="responsive"></li>
+                    <li><img src="imgs/cSharp.png" alt="C#"></li>
+                    <li><img src="imgs/html.png" alt="HTML"></li>
+                    <li><img src="imgs/css.png" alt="CSS"></li>
+                    <li><img src="imgs/js.png" alt="Javascript"></li>
+                </ul>
+            </div>
+            <div class="botRow">
+                <ul>
+                    <li><img src="imgs/asm.png" alt="Assembly"></li>
+                    <li><img src="imgs/arduino.png" alt="Arduino"></li>
+                    <li><img src="imgs/nodeJs.png" alt="Node.js"></li>
+                    <li><img src="imgs/git.png" alt="git"></li>
+                    <li><img src="imgs/gitHub.png" alt="gitHub"></li>
+                </ul>
+            </div>
+        </div>
+        <div id="projects">
+            <h2>Projects</h2>
+            <div class="project1">
+                <div class="demo1">
+                    <img src="projectDemos/gameOfWarDemo.gif" alt="Gif of the card game 'War'">
+                </div>
+                <div class="desc1">
+                    <h3>Game of War - 2021</h3>
+                    <p>A card game ran in a window made with JavaFX. Clicking the middle card flips one card. Once both
+                        cards are revealed, points are given based on the value of whichever card has a larger value.
+                    </p>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="project2">
+                <div class="desc2">
+                    <h3>Jpad Encrypter - 2022</h3>
+                    <p>A Java Application Program Interface (JPAD). Text is entered into the text area, which can be
+                        saved as a JPAD file. When the file is reopened, the text is encrypted. Decryption feature is
+                        unavailable for the time being.</p>
+                </div>
+                <div class="demo2">
+                    <img src="projectDemos/jpadFileEncryption.gif" alt="Gif of JPAD encryption program">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="clouds"></div>
+
+    <footer id="contacts">
+        <h3>Contact: </h3>
+        <ul>
+            <li><a href="mailto: albertyang1112@gmail.com"><img src="imgs/mail.png" alt="email"></a></li>
+            <li><a href="https://github.com/Albertyang1112"><img src="imgs/gitHub.png" alt="gitHub"></a></li>
+            <li><a href="https://www.linkedin.com/in/albert-yang-7480a2281/"><img src="imgs/linkedIn.png"
+                        alt="LinkedIn"></a></li>
+        </ul>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
