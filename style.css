@@ -55,7 +55,6 @@
         .topNav>ul{
             width: 100%;
             flex-direction: column;
-            display:none;
         }
         .topNav>ul>li{
             width:100%;
